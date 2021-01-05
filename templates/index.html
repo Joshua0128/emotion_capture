@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Emotion Flow</title>
+  <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <h1>Emotion Flow Capture</h1>
+  <div class="screen">
+      <img id="video" src="{{ url_for('video_viewer') }}">
+  </div>
+  <div id="recorder">
+    <button id="record">Record</button>
+    <button id="stop">Stop</button>
+    <br>
+    <a id="download"></a>
+    <script type="text/javascript" src="{{ url_for('static', filename='recorder.js') }}"></script>      
+  </div>
+</body>
+</html>

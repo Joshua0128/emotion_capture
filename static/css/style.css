@@ -1,0 +1,38 @@
+
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+#recorder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    width: 10%;
+}
+
+.screen {
+    /* border: 1px solid blue; */
+}
+
+#video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+  
+  
